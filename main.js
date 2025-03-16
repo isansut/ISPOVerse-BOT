@@ -113,7 +113,7 @@ async function registerWallet(referralCode) {
 async function runRegistrations(times) {
     for (let i = 1; i <= times; i++) {
         console.log(`\n=== Starting registration ${i} ===`);
-        await registerWallet("SANSUT");
+        await registerWallet("BHOLY4");
     }
 }
 
